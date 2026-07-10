@@ -91,7 +91,7 @@ nav ul li a{
   padding: 15px 30px;
   margin-top: 250px;
 }
-.speakers-parent{
+.speakers-parent,.price-parent{
   width: 1140px;
   display: flex;
   flex-direction: column;
@@ -147,4 +147,19 @@ nav ul li a{
   line-height:21px ;
   font-weight:400;
   color: #575757;
+}
+.price-child h2{
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+.price-child p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400px;
+  color:#575757;
+  text-align: center;
+  margin-top: 5px;
 }

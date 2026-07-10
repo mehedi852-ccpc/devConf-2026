@@ -23,7 +23,7 @@ header{
 
 }
 .container{
-  width: 1140px;
+  width: 1320px;
   margin: 0 auto;
   display: flex;
   
@@ -70,7 +70,7 @@ nav ul li a{
   padding-top:70px;
   padding-bottom: 40px;
   margin: 0 auto;
-  width: 1140px;
+  width: 1320px;
 }
 .hero-child h1{
   color: white;
@@ -91,8 +91,8 @@ nav ul li a{
   padding: 15px 30px;
   margin-top: 250px;
 }
-.speakers-parent,.price-parent{
-  width: 1140px;
+.speakers-parent {
+  width: 1320px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,18 +115,20 @@ nav ul li a{
 .card-child{
   border: 1px solid rgba(229, 231, 235, 1);
   border-radius: 8px;
-  width: 550px;
+  width: 644px;
   padding-bottom:20px ;
 }
 .card-child img{
   border-radius: 8px 8px 0px 0px;
-  width: 548px;
+  width: 643px;
+
   
 }
 
 .card-child h6{
   padding-left: 20px;
   margin-top: 20px;
+  text-transform: uppercase;
   font-size:12px ;
   line-height:18px ;
   font-weight:600 ;
@@ -148,18 +150,162 @@ nav ul li a{
   font-weight:400;
   color: #575757;
 }
-.price-child h2{
+.price-parent{
+ width: 1320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.price-top h2{
   font-size: 48px;
   line-height: 60px;
   font-weight: 700;
   color: black;
   text-align: center;
 }
-.price-child p{
+.price-top p{
   font-size: 16px;
   line-height: 24px;
   font-weight: 400px;
   color:#575757;
   text-align: center;
   margin-top: 5px;
+}
+
+.price-bottom{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.price-card-one {
+  width: 370px;
+  border: 1px solid rgba(229, 231, 235, 1);
+  border-radius: 8px;
+  padding: 20px;
+}
+.price-card-one  h6{
+  font-size:13px ;
+  text-transform: uppercase;
+  font-weight:600 ;
+  line-height:19.5px ;
+  color:#575757 ;
+}
+.price-card-one h3{
+  font-size:44px ;
+  margin-top: 8px;
+  font-weight:700 ;
+  line-height:44px ;
+  color:#0D1B2A;
+}
+.price-card-one  p{
+    font-size:12px ;
+    margin-top: 8px;
+  line-height:21px ;
+  font-weight:400;
+  color: #575757;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(229, 231, 235, 1);
+}
+.price-card-one ul{
+  margin-top: 15px;
+}
+.price-card-one ul li{
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 500px;
+  color: #333333;
+  margin-left: 20px;
+}
+.price-card-one li::marker {
+    color: #2563eb;   
+    font-size: 14px;  
+}
+.price-card-one button{
+  background-color: white;
+  width: 100%;
+  margin-top: 12px;
+  padding: 8px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  border-radius: 8px;
+  color: #2563EB;
+  border:1px solid #2563EB;
+}
+ 
+.price-card-two{
+  width: 370px;
+  border: 1px solid rgba(229, 231, 235, 1);
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #0d1b2a;
+}
+.price-card-two h6{
+ font-size:13px ;
+ text-transform: uppercase;
+  font-weight:600 ;
+  line-height:19.5px ;
+  color:#93C5FD ;
+}
+.price-card-two h3{
+ font-size:44px ;
+  margin-top: 8px;
+  font-weight:700 ;
+  line-height:44px ;
+  color:white;
+}
+.price-card-two p{
+font-size:12px ;
+    margin-top: 8px;
+  line-height:21px ;
+  font-weight:400;
+  color: #575757;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #575757;
+}
+.price-card-two ul{
+margin-top: 15px;
+}
+.price-card-two ul li{
+font-size: 14px;
+  line-height: 30px;
+  font-weight: 500px;
+  color: #868585;
+  margin-left: 20px;
+}
+.price-card-two li::marker {
+    color: #2563eb;   
+    font-size: 14px;  
+}
+.price-card-two button{
+  background-color: #2563EB;
+  width: 100%;
+  margin-top: 12px;
+  padding: 8px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  border-radius: 8px;
+  color: white;
+  border:1px solid #2563EB;
+}
+.price-card-three{
+  background-color: rgba(248, 249, 251, 1);
+}
+.price-card-three button{
+  background-color: white;
+  width: 100%;
+  margin-top: 12px;
+  padding: 8px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  border-radius: 8px;
+  color: black;
+    border:1px solid black;
 }

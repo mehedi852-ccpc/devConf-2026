@@ -309,3 +309,39 @@ font-size: 14px;
   color: black;
     border:1px solid black;
 }
+
+footer{
+  background-color: #0D1B2A;
+  
+}
+.footer-parent{
+  width: 1320px;
+  padding: 50px 0px;
+  margin: 0 auto;
+  
+}
+.footer-top{
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-social-icon a{
+    color:white;
+   text-decoration: none;
+}
+.footer-social-icon a i{
+  font-size: 25px;
+}
+
+.footer-bottom{
+  border-top: 1px solid rgb(158, 156, 156) ;
+  padding: 10px 0px;
+}
+.footer-bottom p{
+  color: rgb(158, 156, 156);
+  font-size: 14px;
+  line-height: 21px;
+font-weight: 400;
+text-align: center;
+}
